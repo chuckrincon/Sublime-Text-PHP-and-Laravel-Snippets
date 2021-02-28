@@ -1,0 +1,18 @@
+<!--
+	Created by Andrea Sartori
+	https://twitter.com/cerbero90
+-->
+<snippet>
+	<content><![CDATA[
+		<?php
+		/**
+		*
+		*/
+		class ${1:Name} extends Eloquent{
+		${2:// code}
+		}
+		]]>
+	</content>
+	<tabTrigger>phpeloquent</tabTrigger>
+	<description>Generate a PHP class</description>
+</snippet>

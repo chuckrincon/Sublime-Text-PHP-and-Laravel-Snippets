@@ -4,18 +4,17 @@
 -->
 <snippet>
 	<content><![CDATA[
-/**
- * ${1:Clean up mocked objects}.
- *
- * @author	Andrea Marco Sartori
- * @return	void
- */
-public function tearDown()
-{
-	${2:Mockery::close()};
-}
-]]></content>
-	<tabTrigger>teardown</tabTrigger>
-	<description>Generate PHPUnit tearDown</description>
-	<scope>source.php</scope>
-</snippet>
+		/**
+		* ${1:Clean up mocked objects}.
+		*
+		* @return  void
+		*/
+		public function tearDown()
+		{
+		${2:Mockery::close()};
+		}
+		]]></content>
+		<tabTrigger>teardown</tabTrigger>
+		<description>Generate PHPUnit tearDown</description>
+		<scope>source.php</scope>
+	</snippet>
